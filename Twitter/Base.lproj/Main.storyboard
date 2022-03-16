@@ -62,13 +62,13 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTl-AB-kTG">
-                                            <rect key="frame" x="93" y="11.000000000000002" width="50.333333333333343" height="21.666666666666671"/>
+                                            <rect key="frame" x="95" y="11.000000000000002" width="50.333333333333343" height="21.666666666666671"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKY-iG-Bbu">
-                                            <rect key="frame" x="95" y="36.666666666666664" width="299" height="80.333333333333343"/>
+                                            <rect key="frame" x="93" y="36.666666666666664" width="301" height="80.333333333333343"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -82,27 +82,16 @@
                                         </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="UKY-iG-Bbu" firstAttribute="leading" secondItem="bpV-gy-VEo" secondAttribute="trailing" id="4Ph-CC-v3S"/>
                                         <constraint firstItem="ZTl-AB-kTG" firstAttribute="top" secondItem="fxr-f1-xrl" secondAttribute="topMargin" id="6OC-xi-rfQ"/>
-                                        <constraint firstItem="UKY-iG-Bbu" firstAttribute="top" secondItem="ZTl-AB-kTG" secondAttribute="bottom" constant="4" id="8bI-hb-5DX"/>
-                                        <constraint firstItem="ZTl-AB-kTG" firstAttribute="leading" secondItem="bpV-gy-VEo" secondAttribute="trailing" constant="8" id="9ET-29-jxa"/>
-                                        <constraint firstItem="ZTl-AB-kTG" firstAttribute="leading" secondItem="bpV-gy-VEo" secondAttribute="trailing" constant="10" id="Bkn-27-HpJ"/>
                                         <constraint firstItem="bpV-gy-VEo" firstAttribute="leading" secondItem="fxr-f1-xrl" secondAttribute="leadingMargin" id="FEs-93-SJC"/>
                                         <constraint firstItem="bpV-gy-VEo" firstAttribute="top" secondItem="fxr-f1-xrl" secondAttribute="topMargin" id="Iy9-ZG-jRL"/>
-                                        <constraint firstItem="UKY-iG-Bbu" firstAttribute="top" secondItem="ZTl-AB-kTG" secondAttribute="bottom" constant="4" id="MCl-No-LVJ"/>
-                                        <constraint firstItem="ZTl-AB-kTG" firstAttribute="leading" secondItem="bpV-gy-VEo" secondAttribute="trailing" id="O8w-Qa-Jq6"/>
                                         <constraint firstItem="ZTl-AB-kTG" firstAttribute="top" secondItem="fxr-f1-xrl" secondAttribute="topMargin" id="SFS-lR-ozf"/>
                                         <constraint firstItem="ZTl-AB-kTG" firstAttribute="leading" secondItem="bpV-gy-VEo" secondAttribute="trailing" constant="10" id="VLm-Ys-bcv"/>
-                                        <constraint firstItem="UKY-iG-Bbu" firstAttribute="leading" secondItem="bpV-gy-VEo" secondAttribute="trailing" constant="8" id="XQx-ip-i0K"/>
                                         <constraint firstItem="UKY-iG-Bbu" firstAttribute="top" secondItem="ZTl-AB-kTG" secondAttribute="bottom" constant="4" id="dHp-uO-76s"/>
-                                        <constraint firstItem="ZTl-AB-kTG" firstAttribute="leading" secondItem="bpV-gy-VEo" secondAttribute="trailing" constant="18" id="dbQ-4f-uDW"/>
                                         <constraint firstItem="ZTl-AB-kTG" firstAttribute="top" secondItem="fxr-f1-xrl" secondAttribute="topMargin" id="dpb-aZ-XJ4"/>
-                                        <constraint firstItem="UKY-iG-Bbu" firstAttribute="leading" secondItem="bpV-gy-VEo" secondAttribute="trailing" id="eEc-EB-Kdq"/>
-                                        <constraint firstItem="UKY-iG-Bbu" firstAttribute="leading" secondItem="bpV-gy-VEo" secondAttribute="trailing" constant="10" id="qgV-bx-fa2"/>
+                                        <constraint firstItem="UKY-iG-Bbu" firstAttribute="leading" secondItem="bpV-gy-VEo" secondAttribute="trailing" constant="8" id="nbJ-jd-ySu"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="UKY-iG-Bbu" secondAttribute="trailing" id="qtu-32-9UE"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="UKY-iG-Bbu" secondAttribute="bottom" id="tBU-9T-zZO"/>
-                                        <constraint firstItem="ZTl-AB-kTG" firstAttribute="leading" secondItem="bpV-gy-VEo" secondAttribute="trailing" constant="8" id="u6i-tb-6o3"/>
-                                        <constraint firstItem="UKY-iG-Bbu" firstAttribute="leading" secondItem="bpV-gy-VEo" secondAttribute="trailing" constant="10" id="yYB-Iq-JUW"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
